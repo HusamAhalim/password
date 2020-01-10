@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(128, 123, 123);
+    margin: 0;
+    color: rgb(252, 248, 248);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+background-color: rgb(7, 5, 3);
+padding: 3rem;
+border-radius: 1rem;
+border: 2px;
+border-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
