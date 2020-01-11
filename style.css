@@ -1,3 +1,5 @@
+
+/* background/font/text styling */
 body {
     background-color: rgb(128, 123, 123);
     margin: 0;
@@ -8,7 +10,7 @@ body {
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* container styling */
 .container {
 background-color: rgb(7, 5, 3);
 padding: 3rem;
@@ -21,9 +23,36 @@ align-items: center;
 flex-direction: column;
 }
 
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+lable {
+    font-weight: ;
+}
+/* container layout */
 .form {
     display: grid;
     grid-template-columns: auto auto;
-
-
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}     
+/* output display */
+.display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px;
+    border-color: black;
+    height: 4rem;
+    width: 400px;
 }
+.num-input {
+    width: 5rem;
+}
+
+
+

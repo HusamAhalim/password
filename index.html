@@ -11,27 +11,31 @@
 </head>
 <body>
     <div class="container">
-    <h1>Password Generator</h1>
-    <h3>Password</h3>
+    <h1 class="Lable">Password Generator</h1>
+    <h3 class="display">Password</h3>
     <form class="">
+        <!-- question for user asking how asking to state num of chara -->
 <label for="CharacterAmountNumber">Number of Characters</label>
+        <!--chara range slider, and input box  -->
+<div>
 <input type="range" min="8" max="128" value="1"
 id="characterAmountRange">
-<input type="Number" min="8" max="128" value="1"
+<input class="num-input" type="Number" min="8" max="128" value="1"
 id="characterAmount">
-
+</div>
+<!-- uppercase checkable box -->
 <label for="includeUppercase">Include Uppercase</label>
 <input type="checkbox" id="includeUppercase">
-
+<!-- lowercase checkable box -->
 <label for="includeLowercase">Include Lowercase</label>
 <input type="checkbox" id="includeLowercase">
-
+<!-- numbers checkable box -->
 <label for="includeNumbers">Include Numbers</label>
 <input type="checkbox" id="includNumbers">
-
+<!-- symbols checkable box -->
 <label for="includeSymbols">Include Symbols</label>
 <input type="checkbox" id="includeSymbols">
-    
+    <!-- button -->
 <button type="submit">Create Password</button>
 
 </form>
