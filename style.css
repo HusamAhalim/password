@@ -13,8 +13,8 @@ body {
 /* container styling */
 .container {
 background-color: rgb(7, 5, 3);
-padding: 3rem;
-border-radius: 1rem;
+padding: 50px;
+border-radius: 16px;
 border: 2px;
 border-color: black;
 display: flex;
@@ -28,15 +28,19 @@ flex-direction: column;
     text-align: center;
 }
 
-lable {
-    font-weight: ;
+.character-amount-container {
+    display: flex;
+    align-items: center
+    
 }
+
+
 /* container layout */
 .form {
     display: grid;
     grid-template-columns: auto auto;
-    row-gap: 1rem;
-    column-gap: 3rem;
+    row-gap: 15px;
+    column-gap: 50px;
     justify-content: center;
     align-items: center;
 }     
@@ -44,15 +48,22 @@ lable {
 .display {
     background-color: white;
     color: black;
-    padding: 1rem;
-    border: 1px;
+    padding: 20px;
+    border: 2px;
     border-color: black;
-    height: 4rem;
+    height: 65px;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all ;
 }
 .num-input {
     width: 5rem;
 }
 
 
-
+.button {
+    background-color: rgb(221, 75, 75);
+    color: white;
+}
