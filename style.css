@@ -1,69 +1,81 @@
 
 /* background/font/text styling */
 body {
-    background-color: rgb(128, 123, 123);
+    background-color: #333;
     margin: 0;
-    color: rgb(252, 248, 248);
+    color: white;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/* container styling */
-.container {
-background-color: rgb(7, 5, 3);
-padding: 50px;
-border-radius: 16px;
-border: 2px;
-border-color: black;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-
-.title {
-    margin: 0;
-    text-align: center;
-}
-
-.character-amount-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .container {
+    background-color: #006699;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
     display: flex;
-    align-items: center
-    
-}
-
-
-/* container layout */
-.form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form {
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 15px;
-    column-gap: 50px;
+    column-gap: 30px;
     justify-content: center;
     align-items: center;
-}     
-/* output display */
-.display {
+  }
+  
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .character-amount-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number-input {
+    width: 30px;
+  }
+  
+  .password-display {
+      text-align: center;
     background-color: white;
     color: black;
-    padding: 20px;
-    border: 2px;
-    border-color: black;
-    height: 65px;
+    display: flexbox;
+    padding: 15px;
+    border: 1px solid #333;
+    height: 80px;
     width: 400px;
-    display: flex;
+  font-size: 25px;
     justify-content: center;
     align-items: center;
-    word-break: break-all ;
-}
-.num-input {
-    width: 5rem;
-}
-
-
-.button {
-    background-color: rgb(221, 75, 75);
+    word-break: break-all;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
     color: white;
-}
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #FFFFFF33;
+  }
