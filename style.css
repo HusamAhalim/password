@@ -31,7 +31,7 @@ body {
 }
 
 .title {
-  n;
+  
   margin: 0;
   text-align: center;
 }
@@ -48,7 +48,7 @@ label {
 .number-input {
   width: 40px;
 }
-
+/* new password display */
 .password-display {
   background-color: white;
   color: black;
@@ -62,7 +62,7 @@ label {
   word-break: break-all;
   border-radius: 10px;
 }
-
+/* button */
 .btn {
   grid-column: span 2;
   background-color: rgb(235, 21, 21);
@@ -74,6 +74,7 @@ label {
   border-radius: 1rem;
 }
 
+/* hover color change */
 .btn:hover {
   background-color: #FFFFFF33;
 }

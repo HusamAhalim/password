@@ -3,25 +3,20 @@
  This 
 
  # GitHub URL
- https://github.com/HusamAhalim/Bio 
+https://github.com/HusamAhalim/password
 
  # Live URL
 
-https://husamahalim.github.io/Bio/
+https://husamahalim.github.io/password/
  # Code Example
 
-Current projects are created using a combination of HTML and CSS. Future projects will incorporate the use of BootStrap, JavaScript, Python along with others.
+Current projects is to create a random password generator using javascript, HTML, CSS. This Generator will allow the user to generate a secure random password with a min of 8 chracters and a max of 128 characters.
 
 
-# About Me Page
 
+# Business Context
 
-On the About Me Page, You will learn a little about me, Where im from and hopefully get a sense of the type of person I am.
+For any business or company that handles any type of sensitive data, A weak passwords is a real security threat. Not only is it a threat to that company, But also it's customers as well as that companys reputation An application that can generate a strong passwords quickly and effortlessly can ensures that their data is secure.
 
-# Portfolio
-
-My portfolio page will give you an example of my level of creativity, talent and ability to push beyond standard development.
-
-# Contact
-Please feel free to contact me regarding any questions you may have.  You inquiry will be answered right away
+![password gen](PWG.png)
 
