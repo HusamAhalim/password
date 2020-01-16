@@ -1,7 +1,7 @@
 
 
-
-
+const characterAmountRange = document.getElementById('characterAmountRange')
+const characterAmountNumber = document.getElementById('characterAmountNumber')
 const includeUppercaseElement = document.getElementById('includeUppercase')
 const includeNumbersElement = document.getElementById('includeNumbers')
 const includeSymbolsElement = document.getElementById('includeSymbols')
@@ -20,7 +20,7 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
 )
 
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
-
+characterAmountRange.addEventListener('input', syncCharacterAmount)
 
 form.addEventListener('submit', e => {
   e.preventDefault()
