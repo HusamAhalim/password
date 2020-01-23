@@ -1,6 +1,8 @@
 
 // alert box
-alert("To Create a New Secure Password, Click OK, Specify how long you would like your New Password to be, Then select what type of Characters you would like within your new password")
+
+
+alert("Create a New Secure Password: Specify how long you would like your New Password to be (Between 8 - 128 ), Select what type of Characters you would like within your new password")
 
 const characterAmountRange = document.getElementById('characterAmountRange')
 const characterAmountNumber = document.getElementById('characterAmountNumber')
@@ -61,3 +63,6 @@ function syncCharacterAmount(e) {
   characterAmountNumber.value = value
   characterAmountRange.value = value
 }
+// 
+
+
